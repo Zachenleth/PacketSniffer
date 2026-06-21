@@ -25,7 +25,7 @@ for %%F in (%CPP%\*.cpp) do (
 )
 
 ::g++.exe -I%INCLUDE% -L%LIB% %CPPSOURCE% -lwpcap -o %OUTPUT%
-g++.exe -I%INCLUDE% -L%LIB% %CPPSOURCE% -lwpcap -lPacket -o %OUTPUT% -std=c++17 -Wall
+g++.exe -I%INCLUDE% -L%LIB% %CPPSOURCE% -lwpcap -lPacket -lws2_32 -o %OUTPUT% -std=c++17 -Wall
 ::%BIN%\g++.exe -I%INCLUDE% -L%LIB% %CPPSOURCE% -lwpcap -lPacket -o %OUTPUT% -std=c++17 -Wall
 
 
