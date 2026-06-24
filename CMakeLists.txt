@@ -7,25 +7,26 @@ qt_standard_project_setup()
 
 qt_add_executable(PacketSnifferGUI
     WIN32 MACOSX_BUNDLE
-    main.cpp
-    mainwindow.cpp
-    mainwindow.h
+    source/cpp/main.cpp
+    source/cpp/mainwindow.cpp
+    source/headers/mainwindow.h
     mainwindow.ui
 	
-    backend/estructuras.h
-    backend/funciones.h
-    backend/libreria.h
-    backend/get_device_by_index.cpp
-    backend/open_device.cpp
-    backend/start_capture.cpp
-    backend/list_devices.cpp
-    backend/export_csv.h
-    backend/export_csv.cpp
+    source/headers/estructuras.h
+    source/headers/funciones.h
+    source/headers/libreria.h
+    source/cpp/get_device_by_index.cpp
+    source/cpp/open_device.cpp
+    source/cpp/start_capture.cpp
+    source/cpp/list_devices.cpp
+    source/headers/export_csv.h
+    source/cpp/export_csv.cpp
 )
 
 target_include_directories(PacketSnifferGUI PRIVATE
-    backend
-    "C:/Users/emald/Downloads/npcap-sdk-1.16/Include"
+    source/cpp
+    source/headers
+    "C:/npcap-sdk-1.16/Include"
 )
 
 target_link_libraries(PacketSnifferGUI PRIVATE
