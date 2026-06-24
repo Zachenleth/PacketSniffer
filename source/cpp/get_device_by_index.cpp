@@ -1,4 +1,4 @@
-#include "../headers/libreria.h"
+#include "libreria.h"
 
 pcap_if_t *get_device_by_index(pcap_if_t *alldevs, int choice)
 {

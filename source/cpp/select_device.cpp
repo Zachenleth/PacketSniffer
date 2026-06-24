@@ -1,4 +1,4 @@
-#include "../headers/libreria.h"
+#include "libreria.h"
 
 int select_device()
 {

@@ -1,7 +1,8 @@
 #ifndef ESTRUCTURAS_H
 #define ESTRUCTURAS_H
 
-#define MAX_PACKETS 20
+#define MAX_PACKETS 500
+#define MAX_RAW_TEXT 2048
 
 struct ip_header
 {
@@ -48,6 +49,8 @@ struct packet_info
     int src_port;
     int dst_port;
     int size;
+
+    char raw[MAX_RAW_TEXT];
 };
 
 extern struct packet_info packets[MAX_PACKETS];
