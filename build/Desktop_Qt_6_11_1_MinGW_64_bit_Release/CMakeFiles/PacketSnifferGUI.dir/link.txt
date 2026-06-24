@@ -1,3 +1,0 @@
-C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\PacketSnifferGUI.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\PacketSnifferGUI.dir/objects.a @CMakeFiles\PacketSnifferGUI.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\g++.exe -O3 -DNDEBUG -mwindows -Wl,--whole-archive CMakeFiles\PacketSnifferGUI.dir/objects.a -Wl,--no-whole-archive -o PacketSnifferGUI.exe -Wl,--out-implib,libPacketSnifferGUI.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PacketSnifferGUI.dir\linkLibs.rsp

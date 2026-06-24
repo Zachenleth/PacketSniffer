@@ -1,9 +1,0 @@
-C:/Users/emald/Downloads/PacketSnifferGUI/PacketSnifferGUI/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/PacketSnifferGUI.dir
-C:/Users/emald/Downloads/PacketSnifferGUI/PacketSnifferGUI/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/edit_cache.dir
-C:/Users/emald/Downloads/PacketSnifferGUI/PacketSnifferGUI/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/rebuild_cache.dir
-C:/Users/emald/Downloads/PacketSnifferGUI/PacketSnifferGUI/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/list_install_components.dir
-C:/Users/emald/Downloads/PacketSnifferGUI/PacketSnifferGUI/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/install.dir
-C:/Users/emald/Downloads/PacketSnifferGUI/PacketSnifferGUI/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/install/local.dir
-C:/Users/emald/Downloads/PacketSnifferGUI/PacketSnifferGUI/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/install/strip.dir
-C:/Users/emald/Downloads/PacketSnifferGUI/PacketSnifferGUI/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/PacketSnifferGUI_autogen_timestamp_deps.dir
-C:/Users/emald/Downloads/PacketSnifferGUI/PacketSnifferGUI/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/PacketSnifferGUI_autogen.dir
