@@ -7,7 +7,6 @@ ROOT_DIR := $(dir $(MKFILE_PATH))
 
 # Ejecutable
 TARGET = $(RELEASE_DIR)PacketSniffer.exe
-ONLY_TARGET = PacketSniffer.exe
 
 # Uso de rutas relativas con la variable raíz
 SRC_DIR := $(ROOT_DIR)source/
@@ -45,8 +44,8 @@ $(TARGET): $(OBJ)
 
 # Limpieza
 clean:
-	del /f source\cpp\*.o
+	del /f $(OBJ_DIR)*.o
 
 # Limpieza incluyendo el ejecutable
 cleanPlus:
-	del /f source\cpp\*.o  release\$(ONLY_TARGET)
+	del /f $(OBJ_DIR)*.o  $(TARGET)
